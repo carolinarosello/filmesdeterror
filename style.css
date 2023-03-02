@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+@media(max-width:1000px) {
+    section: 300px;
+}
+
 :root {
     --cor01:#8C6F56;
     --cor02: #401D30;
@@ -12,6 +16,8 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Abril Fatface', cursive;
 }
+
+
 
 body {
     background-color: #8C6F56;
@@ -57,8 +63,9 @@ nav > a:hover {
 }
 
 main {
+   
     background-color:  #6b68736a;
-   padding:  0px 25px 1px 25px;
+    padding:  0px 25px 1px 25px;
     margin: -29px 154px 0px 154px;
     text-align:  justify;
     box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.288);

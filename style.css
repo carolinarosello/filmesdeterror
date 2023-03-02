@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --cor01:#8C6F56;
+    --cor02: #401D30;
+    --cor03: #592E3A;
+    --cor04: #030F26; 
+    --cor05: #6B6873; 
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Abril Fatface', cursive;
+}
+
+body {
+    background-color: #8C6F56;
+    font-family: var(--fonte-padrao);
+    margin: 0px;
+
+}
+
+header {
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), #401D30);
+    color: white;
+    padding: 28px;
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 50px;
+}
+
+header > p {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+}
+
+nav {
+    background-color: #401D30;
+    padding: 10px;
+}
+
+nav > a {
+font-family: var(--fonte-padrao);
+text-decoration-line: none;
+color: white;
+padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #401D30;
+    color: #241217;
+    border-radius: 5px;
+}
+
+main {
+    background-color:  #6b68736a;
+   padding:  0px 25px 1px 25px;
+    margin: -29px 154px 0px 154px;
+    text-align:  justify;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.288);
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+p > a {
+    color: #030F26;
+    text-decoration: none;
+    background-color: #8c6f5692;
+}
+
+main > article > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 35px;
+    padding-top: 31px;
+}
+
+main > article > h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 27px;
+    padding-top: 31px;
+}
+
+main > aside > h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 27px;
+    padding-top: 31px;
+}
+
+#img { display: flex;
+    justify-content: center;
+ 
+}
+
+main > aside {
+    background-color: #592e3a69;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;    
+    margin-bottom: 10px;
+
+}
+
+ul { 
+    list-style-type: '\1F52A';
+    columns: 2;
+}
+
+footer {
+    text-align: center;
+    background-color: #401D30;
+    margin: -15px 0px -15px 0px;
+    padding: 0px;
+}

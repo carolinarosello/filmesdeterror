@@ -129,11 +129,35 @@ main > aside {
 
 }
 
+div.video {
+    background-color: #401D30;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {    
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;  }
+
+
 ul { 
     list-style-type: '\1F52A';
     columns: 2;
 }
 
+button {
+    background-color: #592E3A;
+    border-color: #401D30;
+    }
+
+    button > a { 
+        color: aliceblue;
+        text-decoration: none;
+    }
 footer {
     text-align: center;
     background-color: #401D30;
